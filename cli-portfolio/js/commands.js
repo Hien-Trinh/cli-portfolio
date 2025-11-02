@@ -18,7 +18,7 @@ var projects = {
 whois = [
     "<br>",
     "Hey, I'm David!",
-    "I’m a full-time sophomore student at Macalester College in Minnesota. Most of my projects are special",
+    "I’m a full-time junior student at Macalester College in Minnesota. Most of my projects are special",
     "in-class projects, with some passion projects in between. I designed this website as a fun way to",
     "practice using Vim motions and commands. I quite enjoyed learning zsh and using it on the MacOS CLI,",
     "which the majority of the population may not find intuitive, to that I apologies. I hope all you Linux",
