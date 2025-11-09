@@ -5,6 +5,7 @@ var resume =
 var email = "mailto:htrinh@macalester.edu"
 
 var projects = {
+    Compiler: "https://github.com/Hien-Trinh/self-compiling-compiler",
     Virtu: "https://github.com/Hien-Trinh/Virtu-journal",
     Virtu_web: "https://virtujournal.org",
     InterpreterGo: "https://github.com/Hien-Trinh/interpreter-go",
@@ -47,6 +48,9 @@ social = [
 
 projects = [
     "<br>",
+    '<span class="project"><a href="' +
+        projects["Self-hosted_compiler"] +
+        '" target=”_blank”>Self-hosted Compiler</a></span>          A self-hosted compiler for my own programming language.',
     '<span class="project"><a href="' +
         projects["Virtu"] +
         '" target=”_blank”>Virtu Journal       </a></span>          A front-end website for your typical student organization. Pay it a visit: <a href="' +
