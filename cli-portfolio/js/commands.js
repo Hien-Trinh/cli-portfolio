@@ -49,7 +49,7 @@ social = [
 projects = [
     "<br>",
     '<span class="project"><a href="' +
-        projects["Self-hosted_compiler"] +
+        projects["Compiler"] +
         '" target=”_blank”>Self-hosted Compiler</a></span>          A self-hosted compiler for my own programming language.',
     '<span class="project"><a href="' +
         projects["Virtu"] +
