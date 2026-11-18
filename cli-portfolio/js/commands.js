@@ -5,6 +5,11 @@ var resume =
 var email = "mailto:htrinh@macalester.edu"
 
 var projects = {
+    DeltaRs: "https://github.com/delta-io/delta-rs/pulls?q=is%3Apr+author%3AHien-Trinh+is%3Amerged",
+    DeltaRs4852: "https://github.com/delta-io/delta-rs/pull/4852",
+    DeltaRs4943: "https://github.com/delta-io/delta-rs/pull/4943",
+    Shopping: "https://github.com/Hien-Trinh/Shopping",
+    ScratchOff: "https://github.com/Hien-Trinh/ScratchOff",
     Compiler: "https://github.com/Hien-Trinh/self-compiling-compiler",
     Virtu: "https://github.com/Hien-Trinh/Virtu-journal",
     Virtu_web: "https://virtujournal.org",
@@ -49,31 +54,44 @@ social = [
 projects = [
     "<br>",
     '<span class="project"><a href="' +
+        projects["DeltaRs"] +
+        '" target="_blank">delta-rs (OSS)      </a></span>          Merged fixes to transaction conflict detection in Delta Lake\'s Rust core: <a href="' +
+        projects["DeltaRs4852"] +
+        '" target="_blank">#4852</a>, <a href="' +
+        projects["DeltaRs4943"] +
+        '" target="_blank">#4943</a>',
+    '<span class="project"><a href="' +
+        projects["Shopping"] +
+        '" target="_blank">Shopping Pipeline   </a></span>          Commerce ingestion pipeline that keeps a correct catalog under out-of-order and replayed changes. Python + delta-rs + DuckDB.',
+    '<span class="project"><a href="' +
+        projects["ScratchOff"] +
+        '" target="_blank">Scratch Lottery Sim </a></span>          Comedic arcade roguelike about gas station scratch cards, made in Godot 4.',
+    '<span class="project"><a href="' +
         projects["Compiler"] +
-        '" target=”_blank”>Self-hosted Compiler</a></span>          A self-hosted compiler for my own programming language.',
+        '" target="_blank">Self-hosted Compiler</a></span>          A self-hosted compiler for my own programming language.',
     '<span class="project"><a href="' +
         projects["Virtu"] +
-        '" target=”_blank”>Virtu Journal       </a></span>          A front-end website for your typical student organization. Pay it a visit: <a href="' +
+        '" target="_blank">Virtu Journal       </a></span>          A front-end website for your typical student organization. Pay it a visit: <a href="' +
         projects["Virtu_web"] +
-        '" target=”_blank”>virtujournal.org</a> ',
+        '" target="_blank">virtujournal.org</a> ',
     '<span class="project"><a href="' +
         projects["InterpreterGo"] +
-        '" target=”_blank”>Interpreter in Go   </a></span>          A language interpreter written in Go.',
+        '" target="_blank">Interpreter in Go   </a></span>          A language interpreter written in Go.',
     '<span class="project"><a href="' +
         projects["Realtimetexteditor"] +
-        '" target=”_blank”>Realtime Text Editor</a></span>          Your run-of-the-mill text editor supporting real-time collaboration using JS and MongoDB.',
+        '" target="_blank">Realtime Text Editor</a></span>          Your run-of-the-mill text editor supporting real-time collaboration using JS and MongoDB.',
     '<span class="project"><a href="' +
         projects["CLIPortfolio"] +
-        '" target=”_blank”>CLI Portfolio       </a></span>          You are here!',
+        '" target="_blank">CLI Portfolio       </a></span>          You are here!',
     '<span class="project"><a href="' +
         projects["OldPortfolio"] +
-        '" target=”_blank”>Old Portfolio       </a></span>          I flew too close to the sun with this one. Nextjs + Tailwind.',
+        '" target="_blank">Old Portfolio       </a></span>          I flew too close to the sun with this one. Nextjs + Tailwind.',
     '<span class="project"><a href="' +
         projects["Pokedex"] +
-        '" target=”_blank”>Pokedex CLI Game    </a></span>          Fun project to learn Go, error handling and safe backend practices.',
+        '" target="_blank">Pokedex CLI Game    </a></span>          Fun project to learn Go, error handling and safe backend practices.',
     '<span class="project"><a href="' +
         projects["TowerOfHanoi"] +
-        '" target=”_blank”>Tower of Hanoi      </a></span>          COMP128 final project. Typical Java game but had a lot of fun collaborating with a partner.',
+        '" target="_blank">Tower of Hanoi      </a></span>          COMP128 final project. Typical Java game but had a lot of fun collaborating with a partner.',
     "<br>",
 ]
 
